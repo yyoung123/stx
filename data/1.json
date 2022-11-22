@@ -1,0 +1,41 @@
+{
+  "imgPath": "../images/contents/",
+  "items": [
+    {
+      "img": "project.jpg",
+      "title": "새마을운동 테마공원 조성사업",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject",
+      "target": "_blank"
+    },
+    {
+      "img": "project2.jpg",
+      "title": "대구야구장 건립공사",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "LH 본사 신사옥 건립공사",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "대구,경북권 류마티스 및 퇴행성 관절염 전문질환센터",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "남해군 이순신 순국공원 조성사업",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "부산국제금융센터 복합개발",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    }
+  ]
+}

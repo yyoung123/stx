@@ -1,0 +1,622 @@
+#mainVisual {
+  padding-top: 81px;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+#mainVisual:before {
+  content: "";
+  display: block;
+}
+#mainVisual .slogan {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/main/img_visual01.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#mainVisual .slogan .inner {
+  display: flex;
+  top: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: clamp(30px, 5vw, 72px);
+  font-weight: 500;
+}
+#mainVisual .slogan .inner .title {
+  position: absolute;
+  text-align: left;
+  margin: clamp(190px, 19vw, 230px) clamp(45px, 18vw, 235px);
+}
+#mainVisual .slogan .inner .title h2 {
+  display: block;
+  letter-spacing: 0.1rem;
+  line-height: 1.1;
+}
+#mainVisual .slogan .inner .title h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  background-color: #ed1c24;
+  top: -48px;
+}
+#mainVisual .slogan .inner .title p {
+  display: block;
+  margin-top: 50px;
+  font-size: clamp(17px, 1.7vw, 21px);
+  font-weight: 400;
+}
+#mainVisual .scroll {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+}
+#mainVisual .scroll a {
+  text-align: center;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+#biz {
+  background-color: #f8f8f8;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding-bottom: 113px;
+}
+#biz .contentsBox {
+  width: 1200px;
+  margin: auto;
+}
+#biz:before {
+  content: "";
+  display: block;
+}
+#biz .inner {
+  text-align: center;
+  position: relative;
+}
+#biz .inner .title {
+  position: relative;
+  padding-top: 100px;
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+#biz .inner .title:before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 4px;
+  left: 49%;
+  bottom: -25px;
+  background-color: #ed1c24;
+}
+#biz .inner p {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+#biz .bizList {
+  overflow: hidden;
+  margin-top: 20px;
+}
+#biz .bizList .bizBtn {
+  text-align: center;
+  height: 100%;
+}
+#biz .bizList .bizBtn .list {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+#biz .bizList .bizBtn .list:nth-child(1) .bizImg {
+  background-image: url("../images/main/img_business1.png");
+}
+#biz .bizList .bizBtn .list:nth-child(2) .bizImg {
+  background-image: url("../images/main/img_business2.png");
+}
+#biz .bizList .bizBtn .list:nth-child(3) .bizImg {
+  background-image: url("../images/main/img_business3.png");
+}
+#biz .bizList .bizBtn .list:nth-child(4) .bizImg {
+  background-image: url("../images/main/img_business4.png");
+}
+#biz .bizList .bizBtn .list:nth-child(5) .bizImg {
+  background-image: url("../images/main/img_business5.png");
+}
+#biz .bizList .bizBtn .list:nth-child(1) .bizHover .icon {
+  background-image: url("../images/main/bg_common1.png");
+}
+#biz .bizList .bizBtn .list:nth-child(2) .bizHover .icon {
+  background-image: url("../images/main/bg_common2.png");
+}
+#biz .bizList .bizBtn .list:nth-child(3) .bizHover .icon {
+  background-image: url("../images/main/bg_common3.png");
+}
+#biz .bizList .bizBtn .list:nth-child(4) .bizHover .icon {
+  background-image: url("../images/main/bg_common4.png");
+}
+#biz .bizList .bizBtn .list:nth-child(5) .bizHover .icon {
+  background-image: url("../images/main/bg_common5.png");
+}
+#biz .bizList .bizBtn .list a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#biz .bizList .bizBtn .list a .bizImg {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#biz .bizList .bizBtn .list a .bizImg .bTxt {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 98px;
+  text-align: center;
+}
+#biz .bizList .bizBtn .list a .bizHover {
+  position: absolute;
+  width: 100%;
+  height: 420px;
+}
+#biz .bizList .bizBtn .list a .bizHover .bTxt {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 98px;
+  text-align: center;
+}
+#biz .bizList .bizBtn .list a .bizHover .icon {
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 123px;
+  height: 112px;
+}
+#biz .bizList .bizBtn .list a:hover .bizHover {
+  height: 420px;
+  margin-right: -4px;
+  background: #f48025;
+  opacity: 1;
+  transform: translateY(-100%);
+  transition: opacity 0.5s linear;
+}
+
+#notice {
+  background-color: #f8f8f8;
+  display: block;
+}
+#notice .noticeWrap {
+  display: flex;
+  width: 100%;
+  height: 480px;
+}
+#notice .noticeWrap .noticeBox {
+  width: 50%;
+  background-color: #ed1c24;
+  text-align: left;
+  color: #fff;
+}
+#notice .noticeWrap .noticeBox .boxWrap {
+  width: 499px;
+  margin-left: 26%;
+  margin-bottom: 35px;
+}
+#notice .noticeWrap .noticeBox .boxWrap h2 {
+  font-size: clamp(20px, 4vw, 32px);
+  padding-top: 45px;
+}
+#notice .noticeWrap .noticeBox .boxWrap ul {
+  margin: 40px 0 60px;
+}
+#notice .noticeWrap .noticeBox .boxWrap ul li {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #e77277;
+  padding: clamp(18px, 2vw, 24px) 0;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 80px;
+  border-top: 1px solid #e77277;
+}
+#notice .noticeWrap .noticeBox .boxWrap ul li .btn_more {
+  position: absolute;
+  right: 0;
+  width: 77px;
+  height: 23px;
+  top: 20px;
+  vertical-align: middle;
+  background-image: url("../images/main/bg_common.png");
+  background-position: 0 -49px;
+}
+#notice .noticeWrap .newsBox {
+  width: 50%;
+  background-color: #58595b;
+  color: #fff;
+}
+#notice .noticeWrap .newsBox .boxWrap {
+  width: 499px;
+  margin-left: 10%;
+  margin-bottom: 35px;
+}
+#notice .noticeWrap .newsBox .boxWrap h2 {
+  font-size: clamp(20px, 4vw, 32px);
+  padding-top: 45px;
+}
+#notice .noticeWrap .newsBox .boxWrap ul {
+  margin: 40px 0 60px;
+}
+#notice .noticeWrap .newsBox .boxWrap ul li {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid #737475;
+  padding: clamp(18px, 2vw, 24px) 0;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 50px;
+}
+#notice .noticeWrap .newsBox .boxWrap ul li:first-child {
+  border-top: 1px solid #737475;
+}
+#notice .noticeWrap .newsBox .boxWrap ul li .btn_more {
+  position: absolute;
+  right: 0;
+  width: 77px;
+  height: 23px;
+  top: 20px;
+  vertical-align: middle;
+  background-image: url("../images/main/bg_common.png");
+  background-position: 0 -49px;
+}
+#notice .noticeBtn {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: clamp(30px, 5vw, 60px) 0 clamp(50px, 8vw, 100px);
+}
+#notice .noticeBtn .faq {
+  display: flex;
+  width: 599px;
+  height: 200px;
+  background-image: url("../images/main/bg_faq.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  background-color: #fff;
+}
+#notice .noticeBtn .faq .faqTxt {
+  font-size: clamp(13px, 2.5vw, 16px);
+  margin-top: clamp(15px, 6vw, 30px);
+  color: #444;
+  line-height: 1.5;
+}
+#notice .noticeBtn .faq .noti {
+  display: inline-block;
+  padding: clamp(25px, 4vw, 40px) clamp(20px, 2vw, 56px);
+}
+#notice .noticeBtn .faq .noti p {
+  font-size: clamp(18px, 4.5vw, 30px);
+  color: #000;
+  font-weight: 400;
+}
+#notice .noticeBtn .customer {
+  margin-left: 2px;
+  display: flex;
+  width: 599px;
+  height: 200px;
+  background-image: url("../images/main/bg_custom.png");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  background-color: #fff;
+}
+#notice .noticeBtn .customer .faqTxt {
+  font-size: clamp(13px, 2.5vw, 16px);
+  margin-top: clamp(15px, 6vw, 30px);
+  color: #444;
+  line-height: 1.5;
+}
+#notice .noticeBtn .customer .noti {
+  display: inline-block;
+  padding: clamp(25px, 4vw, 40px) clamp(20px, 2vw, 56px);
+}
+#notice .noticeBtn .customer .noti p {
+  font-size: clamp(18px, 4.5vw, 30px);
+  color: #000;
+  font-weight: 400;
+}
+
+#about {
+  width: 100%;
+}
+#about .aboutContain {
+  position: relative;
+  width: 1200px;
+  margin: clamp(30px, 10vw, 98px) auto;
+}
+#about .aboutContain .aboutWrap {
+  position: relative;
+  display: block;
+  height: 370px;
+  background-image: url("../images/main/img_about.png");
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+#about .aboutContain .aboutWrap .txtBox {
+  position: absolute;
+}
+#about .aboutContain .aboutWrap .txtBox .title {
+  letter-spacing: -0.02em;
+  font-size: clamp(20px, 5vw, 48px);
+  font-weight: 700;
+  line-height: 1.25;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+#about .aboutContain .aboutWrap .txtBox .title:before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 5px;
+  left: 30px;
+  bottom: -12px;
+  background-color: #ed1c24;
+}
+#about .aboutContain .aboutWrap .txtBox .subTitle {
+  width: 447px;
+  padding-left: 100px;
+  position: absolute;
+}
+#about .aboutContain .aboutWrap .txtBox .subTitle .sub1 {
+  color: #111;
+  margin-bottom: 20px;
+  font-size: clamp(15px, 3vw, 21px);
+  font-weight: 500;
+  line-height: 1.4;
+}
+#about .aboutContain .aboutWrap .txtBox .subTitle .sub2 {
+  font-size: clamp(13px, 2vw, 15px);
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+#about .aboutContain .iconWrap {
+  text-align: center;
+}
+#about .aboutContain .iconWrap .iconBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+#about .aboutContain .iconWrap .iconBox li {
+  display: inline-block;
+  margin: clamp(30px, 6vw, 80px) clamp(0px, 5vw, 70px) 0px;
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(1) a {
+  background: url("../images/main/bg_icon1.png");
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(2) a {
+  background: url("../images/main/bg_icon2.png");
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(3) a {
+  background: url("../images/main/bg_icon3.png");
+}
+#about .aboutContain .iconWrap .iconBox li a {
+  text-align: center;
+  display: inline-block;
+  width: 103px;
+  height: 108px;
+  background-position: bottom;
+}
+#about .aboutContain .iconWrap .iconBox li a span {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  font-size: clamp(15px, 3.5vw, 20px);
+  font-weight: 500;
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(1) a {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(2) a {
+  background-position: -1px 0px;
+  background-repeat: no-repeat;
+}
+#about .aboutContain .iconWrap .iconBox li:nth-child(3) a {
+  background-position: -5px 0px;
+  background-repeat: no-repeat;
+}
+
+@media all and (max-width: 1400px) {
+  body {
+    word-break: keep-all;
+  }
+  #notice .noticeWrap {
+    padding: 0;
+    position: relative;
+    height: auto;
+  }
+  #notice .noticeWrap:before {
+    content: "";
+    display: block;
+  }
+  #notice .noticeWrap .noticeBox .boxWrap {
+    width: 40vw;
+    margin: 0 clamp(30px, 4vw, 70px);
+  }
+  #notice .noticeWrap .newsBox .boxWrap {
+    width: 40vw;
+    margin: 0 clamp(30px, 4vw, 70px);
+  }
+}
+@media all and (max-width: 1280px) {
+  #mainVisual {
+    padding-top: 60px;
+    height: 90vh;
+  }
+  #notice .noticeWrap {
+    display: flex;
+    flex-direction: row;
+  }
+  #notice .noticeWrap .boxWrap .btn_more {
+    content: "";
+    display: none;
+  }
+  #notice .noticeBtn {
+    position: relative;
+    height: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  #notice .noticeBtn:before {
+    content: "";
+    display: block;
+  }
+  #about .txtBox {
+    width: 100%;
+    height: auto;
+  }
+  #about .txtBox .subTitle {
+    width: 100%;
+    padding-left: 100px;
+    position: absolute;
+  }
+  #biz .contentsBox {
+    width: 100%;
+  }
+}
+@media all and (max-width: 960px) {
+  #mainVisual {
+    height: 80vh;
+  }
+  #notice .noticeBtn .faq {
+    width: 100%;
+    height: auto;
+    background-position: 85% 10%;
+    background-size: 16vw;
+  }
+  #notice .noticeBtn .faq .noti p {
+    margin: 10px 0 10px;
+  }
+  #notice .noticeBtn .customer {
+    width: 100%;
+    height: auto;
+    background-position: 90% 10%;
+    background-size: 12vw;
+  }
+  #notice .noticeBtn .customer .noti p {
+    margin: 10px 0 10px;
+  }
+  #about .aboutContain {
+    width: 100%;
+  }
+  #about .aboutContain .aboutWrap {
+    background-position: 50%;
+    background-size: 90vw;
+  }
+  #about .aboutContain .aboutWrap .txtBox {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -100px;
+  }
+  #about .aboutContain .aboutWrap .txtBox .title {
+    margin-left: 30px;
+  }
+  #about .aboutContain .aboutWrap .txtBox .subTitle {
+    width: auto;
+    padding-left: 100px;
+    position: absolute;
+  }
+  #about .aboutContain .iconWrap .iconBox {
+    display: flex;
+    padding-top: clamp(150px, 30vw, 220px);
+    width: 100%;
+  }
+  #about .aboutContain .iconWrap .iconBox li:nth-child(1) a {
+    background-size: 11vw;
+    background-position: bottom center;
+  }
+  #about .aboutContain .iconWrap .iconBox li:nth-child(2) a {
+    background-size: 11vw;
+    background-position: bottom center;
+  }
+  #about .aboutContain .iconWrap .iconBox li:nth-child(3) a {
+    background-size: 11vw;
+    background-position: bottom center;
+  }
+}
+@media all and (max-width: 640px) {
+  #about .aboutContain .aboutWrap .txtBox {
+    bottom: -80px;
+  }
+  #about .aboutContain .aboutWrap .txtBox .title {
+    margin-left: 20px;
+  }
+  #about .aboutContain .aboutWrap .txtBox .title:before {
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 4px;
+    left: 20px;
+    bottom: 10px;
+    background-color: #ed1c24;
+  }
+  #about .aboutContain .aboutWrap .txtBox .subTitle {
+    padding-left: 80px;
+    margin: -20px 0;
+  }
+  #notice .noticeWrap h2 {
+    font-size: 30px;
+  }
+  #notice .noticeWrap span {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+}
+@media all and (max-width: 480px) {
+  #about .aboutContain .aboutWrap {
+    margin-top: -40px;
+  }
+  #about .aboutContain .aboutWrap .txtBox {
+    bottom: -50px;
+  }
+  #news .newsBox {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  #news .newsBox li {
+    margin-left: 20px;
+  }
+  #news .contents li {
+    flex-basis: 100%;
+  }
+}

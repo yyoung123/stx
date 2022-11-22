@@ -1,0 +1,278 @@
+<?include("../include/header.html")?>
+<body>
+  <section id="project">
+    <nav id="lnb" class="lnb">
+      <div class="inner">
+        <a href="index.html" class="home">Home</a>
+        <div class="depth01">
+          <button class="">사업분야</button>
+          <? include("../include/depth01.html"); ?>
+        </div>
+        <div class="depth02">
+          <button>건축사업</button>
+          <? include("../include/lnb.html"); ?>
+        </div>
+      </div>
+    </nav>
+    <div class="subContainer" id="subContainer">
+      <div class="title">
+        <h2>건축사업</h2>
+      </div>
+      <div class="tabArea">
+        <ul>
+          <li><a href="industry.html" class="">사업소개</a></li>
+          <li><a href="project.html" class="on">사업실적</a></li>
+        </ul>
+      </div>
+      <div class="contents">
+        <div class="txtBox">
+          <h3 class="txtPro">새마을운동 테마공원 조성사업</h3>
+        </div>
+        <div class="subVisual">
+          <div class="slideBox">
+            <div class="sImg">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="">pic5<img src="../images/contents/project.jpg" alt="" /></a>
+                </li>
+              </ul>
+              <div class="pagination">
+                <div class="img"></div>
+              </div>
+            </div>
+            <div class="navigation">
+              <button class="prev"></button>
+              <button class="next"></button>
+            </div>
+          </div>
+        </div>
+        <div class="desc">
+          <div class="descTitle">
+            <p>상세정보</p>
+          </div>
+          <div class="descList" id="descList">
+            <ul>
+              <li>종류 : 문화 및 집회시설</li>
+              <li>현장위치 : 경상북도 구미시 상모사곡동 일원</li>
+              <li>시행사 : 경상북도</li>
+              <li>대지면적 : 245697㎡</li>
+              <li>공사규모 : 전시관, 복합편의시설, 연수동 등</li>
+              <li>공사기간 : 2013년 10월 - 2017년 12월</li>
+            </ul>
+          </div>
+        </div>
+        <div class="board">
+          <div class="boardTitle">
+            <h4>건축사업 실적</h4>
+            <p>아래 사업실적 리스트를 클릭 하시면 자세한 내용을 보실 수 있습니다. 정렬순서는 준공일 또는 준공예정일 순입니다.</p>
+          </div>
+          <div class="boardList" id="boardList">
+            <ul>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span class="boardImg">
+                    <img src="../images/contents/project.jpg" alt="" />
+                  </span>
+                  <p class="tit">대한적십자사 혈액검사통합시설 공사</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="pageList">
+            <a href="" class="first"></a>
+            <a href="" class="prev"></a>
+            <ul>
+              <li data-json="../data/1.json" class="selected"><a href="">1</a></li>
+              <li data-json="../data/2.json"><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
+              <!-- <li><a href="">5</a></li>
+            <li><a href="">6</a></li>
+            <li><a href="">7</a></li>
+            <li><a href="">8</a></li>
+            <li><a href="">9</a></li>
+            <li><a href="">10</a></li> -->
+            </ul>
+            <a href="" class="next"></a>
+            <a href="" class="last"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <?include ("../include/footer.html")?>
+</body>
+<script>
+  const gnb = $("#gnb");
+  const header = $("#header");
+  const btnAll = $("#header .btnAll");
+  const depth01 = $("#gnb .depth01");
+  const depth02 = $("#gnb .depth02");
+  const lnbDepth01 = $("#lnb .depth01");
+  const lnbDepth02 = $("#lnb .depth02");
+
+  lnbDepth01.on("click", function () {
+    lnbDepth01.toggleClass("open");
+  });
+  lnbDepth01.on("mouseleave", function () {
+    lnbDepth01.removeClass("open");
+  });
+  lnbDepth02.on("click", function () {
+    lnbDepth02.toggleClass("open");
+  });
+  lnbDepth02.on("mouseleave", function () {
+    lnbDepth02.removeClass("open");
+  });
+
+  gnb.on("mouseenter", function () {
+    header.addClass("on");
+  });
+  header.on("mouseleave", function () {
+    header.removeClass("on");
+  });
+
+  btnAll.on("click", function (e) {
+    header.toggleClass("open");
+    depth02.delay(500).slideUp();
+    return false;
+  });
+  depth01.on("click", function (e) {
+    // e.preventDefault();
+    if (header.hasClass("mobile")) {
+      const depth02 = $(this).next();
+      const siblings = $(this).parent().siblings().find(".depth02");
+      siblings.stop().slideUp();
+      depth02.stop().slideToggle();
+      return false;
+    }
+  });
+
+  $(window).on("resize", function () {
+    const w = $(window).outerWidth();
+    if (w <= 1200) {
+      header.addClass("mobile");
+    } else {
+      header.removeClass("mobile open");
+      depth01.removeAttr("style");
+      depth02.removeAttr("style");
+      // lnbDepth02.removeAttr("style");
+    }
+  });
+  $(window).trigger("resize");
+  const myArray = ["pic5"];
+  new Swiper("#subContainer .sImg", {
+    loop: false,
+    loopedSlides: 1,
+    slidesPerView: 1,
+    spaceBetween: 80,
+    pagination: {
+      el: "#subContainer .pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return `<span class="${className}"><strong>${myArray[index + 1]}</strong></span>`;
+      },
+    },
+    navigation: {
+      prevEl: "#subContainer .navigation .prev",
+      nextEl: "#subContainer .navigation .next",
+    },
+  });
+  const contents = $(".contents");
+  const boardList = $(".boardList");
+  $(".pageList li").on("click", function () {
+    if ($(this).hasClass("selected")) {
+      return false;
+    }
+    $(this).addClass("selected").siblings().removeClass("selected");
+    const jsonSrc = $(this).data("json");
+    loadJson(jsonSrc);
+    return false;
+  });
+
+  const loadJson = function (src) {
+    $.ajax({ url: src })
+      .done(function (response) {
+        // console.log(response);
+        const imgPath = response.imgPath;
+        const items = response.items;
+        let tempHtml = "";
+        function templateHTML(title, list, body) {
+          return `
+          <html>
+          <head>
+            <title>WEB1 - ${title}</title>
+            <meta charset="utf-8">
+          </head>
+          <body>
+            <h1><a href="/">WEB</a></h1>
+            ${list}
+            ${body}
+          </body>
+          `;
+        }
+        $.each(items, function (idx, item) {
+          tempHtml += `<li><a href="${item.link} target="${item.target}">
+            <span class="boardImg">
+              <img src="${imgPath + item.img}" alt="">
+            </span>
+            <p class="tit">${item.title}</p>
+        </a></li>`;
+          // `<ul>
+          //     <li>종류 : ${item.desc1}</li>
+          //     <li>현장위치 : ${item.desc2}</li>
+          //     <li>시행사 : ${item.desc3}</li>
+          //     <li>대지면적 : ${item.desc4}</li>
+          //     <li>공사규모 : ${item.desc5}</li>
+          //     <li>공사기간 : ${item.desc6}</li>
+          //   </ul>`;
+        });
+        // descList.html(tempHtml);
+        boardList.html(tempHtml);
+      })
+      .fail(function (error) {
+        console.log(error);
+        alert("파일이 로딩되지 않았습니다.");
+      });
+  };
+  loadJson(`../data/1.json`);
+</script>

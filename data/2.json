@@ -1,0 +1,41 @@
+{
+  "imgPath": "../images/contents/",
+  "items": [
+    {
+      "img": "project.jpg",
+      "title": "창원 00사단 이전공사",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "대구 경북과학기술원 학위과정신설",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "전경련회관 신축",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "서울 글로벌클러스터빌딩 건립공사",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "진주 초전초등학교",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    },
+    {
+      "img": "project.jpg",
+      "title": "진해 웅동 복합관광레저단지",
+      "link": "http://www.stxconst.co.kr/user/business/buildProject/list",
+      "target": "_blank"
+    }
+  ]
+}
