@@ -1,4 +1,5 @@
-<?include $_SERVER["DOCUMENT_ROOT"]."/include/top.php" ?>
+
+<?include ("./include/header.html")?> 
 <div id="mainVisual">
   <div class="slogan">
     <div class="inner">
