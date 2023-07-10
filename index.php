@@ -1,4 +1,4 @@
-<?include("../include/header.html")?>
+<?include $_SERVER["DOCUMENT_ROOT"]."/include/top.php" ?>
 <div id="mainVisual">
   <div class="slogan">
     <div class="inner">
@@ -166,7 +166,7 @@
       </div>
     </section> 
     <!-- about end -->
-<?include ("../include/footer.html")?> 
+<?include ("./include/footer.html")?> 
 
     <script>
       const gnb = $("#gnb");
