@@ -683,7 +683,7 @@
 
 @media all and (min-width: 1201px) {
   #industry .lnb .inner .depth01:hover ul,
-#industry .depth02:hover ul {
+  #industry .depth02:hover ul {
     display: block !important;
   }
   #industry .subContainer .contents .subVisual .slideBox .sImg {
@@ -695,53 +695,53 @@
     word-break: keep-all;
   }
   #industry,
-#project {
+  #project {
     word-break: keep-all;
   }
   #industry .lnb .inner,
-#project .lnb .inner {
+  #project .lnb .inner {
     width: 100%;
   }
   #industry .lnb .inner .depth01,
-#industry .lnb .inner .depth02,
-#project .lnb .inner .depth01,
-#project .lnb .inner .depth02 {
+  #industry .lnb .inner .depth02,
+  #project .lnb .inner .depth01,
+  #project .lnb .inner .depth02 {
     width: 190px;
   }
   #industry .subContainer .title,
-#project .subContainer .title {
+  #project .subContainer .title {
     padding: clamp(80px, 15vw, 120px) 0 clamp(35px, 8vw, 50px);
   }
   #industry .subContainer .title h2,
-#project .subContainer .title h2 {
+  #project .subContainer .title h2 {
     font-size: clamp(30px, 3vw, 40px);
   }
   #industry .subContainer .contents,
-#project .subContainer .contents {
+  #project .subContainer .contents {
     width: 100%;
   }
   #industry .subContainer .contents .txtBox,
-#project .subContainer .contents .txtBox {
+  #project .subContainer .contents .txtBox {
     word-break: keep-all;
   }
   #industry .subContainer .contents .txtBox p,
-#project .subContainer .contents .txtBox p {
+  #project .subContainer .contents .txtBox p {
     margin: 0px 20px;
     letter-spacing: -0.1em;
   }
 }
 @media all and (max-width: 1024px) {
   #industry .lnb,
-#project .lnb {
+  #project .lnb {
     top: 60px;
   }
   #industry .subContainer .tabArea ul li a,
-#project .subContainer .tabArea ul li a {
+  #project .subContainer .tabArea ul li a {
     width: clamp(180px, 22vw, 298px);
     font-size: 16px;
   }
   #industry .subContainer #industry .contents .btn,
-#project .subContainer #industry .contents .btn {
+  #project .subContainer #industry .contents .btn {
     transform: translateY(-30px);
     transition: 1s ease-in-out;
   }
